@@ -1,0 +1,31 @@
+{
+  "name": "w-18",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "server": "json-server db.json --watch"
+  },
+  "devDependencies": {
+    "@types/animejs": "^3.1.12",
+    "@types/navigo": "^4.0.1",
+    "@types/toastify-js": "^1.12.3",
+    "autoprefixer": "^10.4.16",
+    "postcss": "^8.4.33",
+    "tailwindcss": "^3.4.0",
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@types/axios": "^0.14.0",
+    "animejs": "^3.2.2",
+    "just-validate": "^4.3.0",
+    "navigo": "^3.4.0",
+    "notyf": "^3.10.0",
+    "swiper": "^11.0.5",
+    "toastify-js": "^1.12.0"
+  }
+}
